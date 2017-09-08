@@ -1,4 +1,12 @@
 = Retrocean
 
+Retrocean is a new user experience for Jenkins based on a personalizable,
+**modern** design that allows users to graphically create, visualize and diagnose
+Continuous Delivery (CD) Pipelines
 
-how far will I go for a joke?
+Retrocean's innovative design enables developers to visually represent
+pipelines in a way even their boss’s boss can understand, improving clarity
+into the CD process for the whole organization
+
+
+
