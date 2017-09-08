@@ -1,0 +1,4 @@
+# Extensions in this plugin
+extensions:
+  - extensionPoint: jenkins.blueocean.top.links
+    component: TopLink
