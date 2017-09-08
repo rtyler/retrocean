@@ -67,12 +67,36 @@ body, * {
     color: #0f0 !important;
 }
 
-.JTable-cell-contents {
-    -webkit-marquee: auto medium infinite scroll normal;
-    overflow-x: -webkit-marquee;
-}
-
 .Header-pageTabs a {
     color: #f00 !important;
     font-weight: bold;
+}
+
+.result-bg.success {
+    background-color: #0f0;
+}
+.svgResultStatus circle.success {
+    fill: #0f0;
+}
+
+.result-bg.failure {
+    background-color: #f00;
+}
+
+.svgResultStatus circle.failure {
+    fill: #f00;
+}
+
+.Alert.Info .border {
+    background-color: #0ff;
+}
+
+.toast {
+    background-color: #000;
+}
+
+.pipeline-node-hittarget {
+    fill-opacity: 1;
+    fill: #0ee;
+    r: 10;
 }
