@@ -8,6 +8,10 @@ pipeline {
         buildDiscarder(logRotator(numToKeepStr: '5'))
     }
 
+    environment {
+        HOME = '$PWD'
+    }
+
     stages {
         stage('Build') {
             steps {
