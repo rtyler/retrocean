@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 
 pipeline {
-    agent { docker 'maven:3-alpine' }
+    agent { docker 'maven:3' }
 
     options {
         timeout(time: 1, unit: 'HOURS')
